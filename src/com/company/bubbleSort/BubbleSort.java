@@ -3,11 +3,7 @@ package com.company.bubbleSort;
 
 
 public class BubbleSort <T extends Number>  {
-//    public int length ;
-//
-//    public  BubbleSort(int len){
-//        length=len ;
-//    }
+
     CompairInterger CompInt=new CompairInterger() ;
     public  void bubbleSort(T[] arr ){
         for(int i=0;i<arr.length-1;i++){
